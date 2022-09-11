@@ -1,7 +1,21 @@
-/** CSS STYLE **/
+:root {
+  --white: #fff;
+  --accent: #fe8a02;
+  --text-color: #2A2626;
+}
 
-.hello {
-  display: block;
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--text-color);
+}
 
-  color: #fff;
+.section {
+  padding: 100px 0;
+}
+
+.container {
+  min-width: 1110px;
+  margin: 0 auto;
 }
