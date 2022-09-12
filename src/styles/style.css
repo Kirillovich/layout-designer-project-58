@@ -21,8 +21,25 @@ body {
   overflow-x: hidden;
 }
 
+.no-pe::before {
+  content: '' !important;
+  background: none !important;
+}
+
+.bg-white {
+  background: var(--white) !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-accent {
   color: var(--accent);
+}
+
+.b-center {
+  margin: 0 auto;
 }
 
 .h1, .h2, .h3 {
@@ -81,6 +98,7 @@ body {
 }
 
 .container {
+  position: relative;
   max-width: 1110px;
   margin: 0 auto;
 }
@@ -109,5 +127,13 @@ body {
 
 .header-btn {
   margin-top: 24px;
+}
+
+.deformation-p {
+  margin-bottom: 30px;
+}
+
+.deformation-video {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
