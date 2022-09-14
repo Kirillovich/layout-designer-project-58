@@ -9,6 +9,7 @@
   --text-color: #2A2626;
   --light: #f5f4f0;
   --blue: #1085c5;
+  --shadow: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 body {
@@ -32,6 +33,10 @@ body {
 
 .bg-dark {
   background: var(--dark-accent) !important;
+}
+
+.bg-brown {
+  background: var(--brown) !important;
 }
 
 .text-center {
@@ -64,6 +69,13 @@ body {
 
 .h3 {
   font-size: 34px;
+}
+
+.h4 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 5px 0 5px 10px;
 }
 
 .btn {
@@ -144,7 +156,7 @@ body {
 }
 
 .deformation-video {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: var(--shadow);
 }
 
 .navigation {
@@ -187,33 +199,47 @@ body {
   color: var(--accent);
 }
 
-.ikea-text span {
+.ikea-text span,
+.premature-text span {
   font-family: 'Neucha', sans-serif;
   font-size: 24px;
   color: var(--dark-transparent);
 }
 
-.ikea-text p {
+.premature-text span {
+  color: var(--white-transparent);
+}
+
+.ikea-text p,
+.premature-text p {
   font-size: 34px;
   font-family: 'Neucha', sans-serif;
   line-height: 40.8px;
   margin-top: 30px;
 }
 
+.ikea-img img,
+.premature-text img {
+  vertical-align: middle;
+  display: inline-block;
+  filter: var(--shadow);
+}
+
 .ikea-h4 {
   margin-top: 100px;
   margin-bottom: 20px;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
   color: var(--white);
   background: var(--brown);
-  padding: 5px 0 5px 10px;
 }
 
-.ikea-img img {
-  vertical-align: middle;
-  display: inline-block;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+.premature {
+  color: var(--white);
+}
+
+.premature-h4 {
+  color: var(--brown);
+  background: var(--white);
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
