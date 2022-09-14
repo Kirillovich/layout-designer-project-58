@@ -187,4 +187,33 @@ body {
   color: var(--accent);
 }
 
+.ikea-text span {
+  font-family: 'Neucha', sans-serif;
+  font-size: 24px;
+  color: var(--dark-transparent);
+}
+
+.ikea-text p {
+  font-size: 34px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 40.8px;
+  margin-top: 30px;
+}
+
+.ikea-h4 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--brown);
+  padding: 5px 0 5px 10px;
+}
+
+.ikea-img img {
+  vertical-align: middle;
+  display: inline-block;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
 
