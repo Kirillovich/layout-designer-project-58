@@ -202,7 +202,8 @@ body {
 .ikea-text span,
 .premature-text span,
 .distortion-text span,
-.hyperbolic-text span {
+.hyperbolic-text span,
+.errors-text span {
   font-family: 'Neucha', sans-serif;
   font-size: 24px;
   color: var(--dark-transparent);
@@ -216,7 +217,8 @@ body {
 .ikea-text p,
 .premature-text p,
 .distortion-text p,
-.hyperbolic-text p {
+.hyperbolic-text p,
+.errors-text p {
   font-size: 34px;
   font-family: 'Neucha', sans-serif;
   line-height: 40.8px;
@@ -226,14 +228,16 @@ body {
 .ikea-img img,
 .premature-img img,
 .distortion-img img,
-.hyperbolic-img img {
+.hyperbolic-img img,
+.errors-img img {
   vertical-align: middle;
   display: inline-block;
   filter: var(--shadow);
 }
 
 .ikea-h4,
-.distortion-h4 {
+.distortion-h4,
+.errors-h4 {
   margin-top: 100px;
   margin-bottom: 20px;
   color: var(--white);
