@@ -247,6 +247,7 @@ body {
   margin-bottom: 20px;
   color: var(--white);
   background: var(--brown);
+  line-height: 16.8px;
 }
 
 .premature,
@@ -260,6 +261,7 @@ body {
   background: var(--white);
   margin-top: 100px;
   margin-bottom: 20px;
+  line-height: 16.8px;
 }
 
 .footer .h3 {
