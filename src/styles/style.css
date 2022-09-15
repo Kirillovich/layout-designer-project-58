@@ -6,19 +6,19 @@
   --dark: #2a2626;
   --dark-transparent: #908d8b;
   --brown: #b09a81;
-  --text-color: #2A2626;
+  --text-color: #2a2626;
   --light: #f5f4f0;
   --blue: #1085c5;
-  --shadow: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  --shadow: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
-::-webkit-input-placeholder {color:#757575; font-size: 13px; opacity: .2;}
-::-moz-placeholder          {color:#757575; font-size: 13px; opacity: .2;}
+::input-placeholder {color:#757575; font-size: 13px; opacity: .2;}
+/* ::-moz-placeholder          {color:#757575; font-size: 13px; opacity: .2;}
 :-moz-placeholder           {color:#757575; font-size: 13px; opacity: .2;}
-:-ms-input-placeholder      {color:#757575; font-size: 13px; opacity: .2;}
+:-ms-input-placeholder      {color:#757575; font-size: 13px; opacity: .2;} */
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--text-color);
@@ -28,7 +28,7 @@ body {
 }
 
 .no-pe::before {
-  content: '' !important;
+  content: "" !important;
   background: none !important;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .h1, .h2, .h3 {
-  font-family: 'Neucha', sans-serif;
+  font-family: "Neucha", sans-serif;
   line-height: 1.2em;
   font-weight: 400;
   padding: 0;
@@ -105,17 +105,17 @@ body {
 }
 
 .section::before {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../img/background.png);
+  background: url("../img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .1;
+  opacity: 0.1;
 }
 
 .container {
@@ -177,7 +177,7 @@ body {
 
 .navigation-title {
   font-size: 52px;
-  font-family: 'Neucha', sans-serif;
+  font-family: "Neucha", sans-serif;
   line-height: 62.4px;
   color: var(--white);
 }
@@ -195,7 +195,7 @@ body {
   font-size: 64px;
   display: inline-block;
   margin-bottom: 40px;
-  font-family: 'Neucha', sans-serif;
+  font-family: "Neucha", sans-serif;
   line-height: 1;
 }
 
@@ -209,7 +209,7 @@ body {
 .distortion-text span,
 .hyperbolic-text span,
 .errors-text span {
-  font-family: 'Neucha', sans-serif;
+  font-family: "Neucha", sans-serif;
   font-size: 24px;
   color: var(--dark-transparent);
 }
@@ -225,7 +225,7 @@ body {
 .hyperbolic-text p,
 .errors-text p {
   font-size: 34px;
-  font-family: 'Neucha', sans-serif;
+  font-family: "Neucha", sans-serif;
   line-height: 40.8px;
   margin-top: 30px;
 }
@@ -303,7 +303,7 @@ body {
 }
 
 .footer-form-btn::before {
-  content: url(../img/send.svg);
+  content: url("../img/send.svg");
   width: 24px;
   height: 24px;
 }
@@ -324,6 +324,5 @@ body {
 }
 
 .footer-copyright a {
-  color: #007DC1;
+  color: #007dc1;
 }
-
