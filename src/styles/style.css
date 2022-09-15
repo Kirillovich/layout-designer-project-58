@@ -9,7 +9,6 @@
   --text-color: #2a2626;
   --light: #f5f4f0;
   --blue: #1085c5;
-  --shadow: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 /* ::input-placeholder {color:#757575; font-size: 13px; opacity: .2;}
@@ -162,7 +161,7 @@ body {
 }
 
 .deformation-video {
-  filter: var(--shadow);
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .navigation {
@@ -238,7 +237,7 @@ body {
 .errors-img img {
   vertical-align: middle;
   display: inline-block;
-  filter: var(--shadow);
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .ikea-h4,
