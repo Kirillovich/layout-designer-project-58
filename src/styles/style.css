@@ -12,6 +12,11 @@
   --shadow: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
+::-webkit-input-placeholder {color:#757575; font-size: 13px; opacity: .2;}
+::-moz-placeholder          {color:#757575; font-size: 13px; opacity: .2;}
+:-moz-placeholder           {color:#757575; font-size: 13px; opacity: .2;}
+:-ms-input-placeholder      {color:#757575; font-size: 13px; opacity: .2;}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -255,5 +260,70 @@ body {
   background: var(--white);
   margin-top: 100px;
   margin-bottom: 20px;
+}
+
+.footer .h3 {
+  color: var(--white);
+}
+
+.footer-top {
+  background: var(--dark-accent);
+  padding: 40px 55px;
+  align-items: center;
+  color: var(--white);
+}
+
+.footer-top-mail {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.footer-form {
+  min-height: 50px;
+  display: flex;
+}
+
+.footer-form input {
+  background: var(--white);
+  border: none;
+  flex-basis: 100%;
+  padding: 15px;
+}
+
+.footer-form-btn {
+  position: relative;
+  flex-basis: 70px;
+  flex-shrink: 0;
+  border: none;
+  background: var(--accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.footer-form-btn::before {
+  content: url(../img/send.svg);
+  width: 24px;
+  height: 24px;
+}
+
+.footer-top-rules {
+  font-size: 12px;
+  margin: 0;
+}
+
+.footer-top-rules a {
+  color: var(--white);
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 76px;
+}
+
+.footer-copyright a {
+  color: #007DC1;
 }
 
