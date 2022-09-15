@@ -161,7 +161,7 @@ body {
 }
 
 .deformation-video {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 15%);
 }
 
 .navigation {
@@ -237,7 +237,7 @@ body {
 .errors-img img {
   vertical-align: middle;
   display: inline-block;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 15%);
 }
 
 .ikea-h4,
