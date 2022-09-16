@@ -244,7 +244,7 @@ body {
 .distortion-h4,
 .errors-h4 {
   margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
   color: var(--white);
   background: var(--brown);
   line-height: 16.8px;
@@ -260,7 +260,7 @@ body {
   color: var(--brown);
   background: var(--white);
   margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
   line-height: 16.8px;
 }
 
